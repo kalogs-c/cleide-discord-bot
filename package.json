@@ -4,8 +4,11 @@
   "main": "index.js",
   "author": "Carlos Camilo <carloscamilocontato@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
-    "start": "node ."
+    "start": "node index.js"
   },
   "dependencies": {
     "@discordjs/builders": "^0.6.0",
