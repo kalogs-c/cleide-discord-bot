@@ -46,12 +46,12 @@ distube.on("error", (channel, err) => {
 distube
   .on("playSong", (queue, song) =>
     queue.textChannel.send(
-      `Ta na mão ${song.user}\nTransmitindo agora: ${song.name} - ${song.formattedDuration}`
+      `Ta na mão ${song.user}\nTransmitindo agora: \`${song.name}\` - \`${song.formattedDuration}\``
     )
   )
   .on("addSong", (queue, song) =>
     queue.textChannel.send(
-      `Adicionei ${song.name} - \`${song.formattedDuration}\` na fila, ${song.user} é u culpade`
+      `Adicionei ${song.name} - \`${song.formattedDuration}\` na fila\n${song.user} é u culpade`
     )
   )
   .on("playList", (queue, playlist, song) =>
