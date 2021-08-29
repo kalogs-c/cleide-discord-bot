@@ -30,7 +30,7 @@ client.on("messageCreate", (message) => {
   if (command === "p") distube.play(message, args.join(" "));
   if (command === "stop") {
     distube.stop(message);
-    return message.reply("Parei :(");
+    return message.reply("Deu sono zZzZ");
   }
   if (command === "skip") {
     distube.skip(message);

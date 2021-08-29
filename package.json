@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Carlos Camilo <carloscamilocontato@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node ."
+  },
   "dependencies": {
     "@discordjs/builders": "^0.6.0",
     "@discordjs/opus": "^0.6.0",
