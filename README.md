@@ -58,4 +58,4 @@ Go to the directory using the command <code>cd cleide-discord-bot</code> and ins
 
 ### Running
 
-Type <code>node .</code or <code>node index.js</code> to run the code. Be sure to be on the root folder
+Type <code>node .</code> or <code>node index.js</code> to run the code. Be sure to be on the root folder
